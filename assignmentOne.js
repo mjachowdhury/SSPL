@@ -10,6 +10,7 @@ function getFutureYear(birthYear,futureYear){
 console.log(getFutureYear());
 
 
+
 //Question 2:
 /*
 *This function will calculate the with age and amount per day consumed a
@@ -25,6 +26,8 @@ function calculateSuppply(personAge, amountPerDay){
 console.log(calculateSuppply(80,10));
 console.log(calculateSuppply(90,15));
 console.log(calculateSuppply(100,18));
+
+
 
 
 //Question 3:
@@ -51,6 +54,7 @@ var c = new circle(3);
 console.log("Area = " + c.area().toFixed(2));
 console.log("perimeter = " + c.perimeter().toFixed(2));
 
+
 /*
 This function will calculate the area of the circle
 */
@@ -67,6 +71,8 @@ function calculatePerimeter(radius){
   return 2 * Math.PI * radius;
 }
 console.log(calculatePerimeter(5));
+
+
 
 
 //Question 4
@@ -94,6 +100,9 @@ console.log(calculatePerimeter(5));
  
  console.log(fahrenheitToCelsius(100));
  
+ 
+ 
+ 
  //Question 5
  /*
  This function will take four arguments and will return the user input result;
@@ -108,6 +117,9 @@ console.log(calculatePerimeter(5));
    return result;
  }
  console.log(fortuneTeller("happy","Jannah","Opi",4 ));
+ 
+ 
+ 
  
  //Question 6
   /*
@@ -124,6 +136,9 @@ console.log(calculatePerimeter(5));
  console.log(calculateDogAge(10));
  console.log(calculateDogAge(5));
 
+ 
+ 
+ 
  //Question 7:
  /*This function will find out given year is leap year or not.*/
 
@@ -139,6 +154,8 @@ function leapYear(year){
 }
 
 console.log(leapYear(1996));
+
+
 
 
 //Question 8:
@@ -157,6 +174,9 @@ console.log(leapYear(1996));
  }
  
  console.log(getTriangle(7));
+ 
+ 
+ 
  
  //Question 9:
  /*This function will find out which number is divided by 3 or 5
@@ -187,6 +207,8 @@ function isPalindrome (string) {
 console.log(isPalindrome('good'));
 console.log(isPalindrome('mum'));
 console.log(isPalindrome('hello'));
+
+
 
 
 //Question 11
